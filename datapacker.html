@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Shiping Tracker</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar-->
+    <div class="border-end bg-white" id="sidebar-wrapper">
+      <div class="sidebar-heading border-bottom bg-light text-center">
+        <img src="assets/img/pp.jpg" alt="Profile Picture" style="width:150px" class="img-fluid rounded-circle" />
+        <h5>Mardian Suherman</h5>
+      </div>
+      <div class="list-group list-group-flush text-center">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">
+          <h4> Dashboard</h4>
+        </a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="inputresi.html">
+          <h4> Input Resi</h4>
+        </a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="dataresi.html">
+          <h4> Data Resi</h4>
+        </a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3 active" href="datapacker.html">
+          <h4>Data Packer</h4>
+        </a>
+      </div>
+    </div>
+    <!-- Page content wrapper-->
+    <div id="page-content-wrapper">
+      <!-- Top navigation-->
+      <nav class="navbar shadow-sm navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+          <button onclick="show_hidde()" class="btn btn-secondary rounded-pill" id="sidebarToggle"><i
+              class="fa-solid fa-bars"></i></button>
+
+          <h3 id="top-title" class="fw-bold">Data Packer</h3>
+
+          <a class="logout" href="/404.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+      </nav>
+
+      <!-- Page content-->
+      <div class="container-fluid scrollx">
+        <div class="container">
+
+          <div class="col-10 mx-auto">
+
+            <div class="mt-5 justify-content-start">
+              <div class="col-12 col-sm-7 col-lg-5 mb-3">
+                <input type="text" class="form-control text-center" placeholder="Input No HP">
+              </div>
+              <div class="col-12 col-sm-7 col-lg-5">
+                <input type="text" class="form-control text-center" placeholder="Input Resi">
+              </div>
+            </div>
+
+            <div class="row justify-content-end">
+              <form class="d-flex mt-3 col-12 col-sm-7 col-lg-5">
+                <input class="text-center form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary" type="submit"><i
+                    class="fa-solid fa-magnifying-glass"></i></i></button>
+              </form>
+            </div>
+
+            <table class="table table-bordered text-center table-hover mt-3 mb-5 shadow ">
+              <div class="justify-content-center col-12 col-md-10">
+                <thead class="table-secondary">
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nomor Resi</th>
+                    <th scope="col">Expedisi</th>
+                    <th scope="col">Packer</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Tgl Dikirim</th>
+                    <th scope="col">Tgl Diterima</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>9283764563</td>
+                    <td>J&T</td>
+                    <td>Rahmat</td>
+                    <td>Dikirim</td>
+                    <td>02-02-2022</td>
+                    <td>02-03-2022</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>7653429873</td>
+                    <td>Ninja</td>
+                    <td>Yoyok</td>
+                    <td>Belum Dikirim</td>
+                    <td>02-02-2022</td>
+                    <td>02-03-2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>7252739208</td>
+                    <td>Grab</td>
+                    <td>Hendra</td>
+                    <td>Belum Dikirim</td>
+                    <td>02-02-2022</td>
+                    <td>02-03-2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>8372668902</td>
+                    <td>Shopee</td>
+                    <td>Hera</td>
+                    <td>Dikirim</td>
+                    <td>02-02-2022</td>
+                    <td>02-03-2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>8372668902</td>
+                    <td>Sicepat</td>
+                    <td>Azhar F</td>
+                    <td>Dikirim</td>
+                    <td>02-02-2022</td>
+                    <td>02-03-2022</td>
+                  </tr>
+                </tbody>
+              </div>
+            </table>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap core JS-->
+  <script src="js/bootstrap.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <script src="js/fontawesome.js"></script>
+</body>
+
+</html>

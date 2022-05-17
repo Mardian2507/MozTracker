@@ -1,0 +1,30 @@
+.scrollx {
+  overflow: auto;
+}
+
+.logout {
+  color: #6c757d;
+}
+
+.count {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.count:hover {
+transform: scale(1.1);
+cursor: not-allowed;
+}
+
+.rounded-circle:hover {
+  transform: scale(0.9);
+  transition: all 400ms ease;
+}
+
+.btn {
+  border: none;
+}
+
+.card {
+  height: 100%;
+}
